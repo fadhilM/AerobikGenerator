@@ -32,10 +32,10 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="Intensitas" class="col-sm col-form-label" name="intensitas" id="intensitas">Intensitas :</label
+                        <label for="Intensitas" class="col-sm col-form-label" >Intensitas :</label
 							>
 							<div class="col-sm">
-								<select class="form-control">
+								<select class="form-control" name="intensitas" id="intensitas">
 									<option value="rendah">Rendah</option>
 									<option value="sedang">Sedang</option>
 									<option value="tinggi">Tinggi</option>
@@ -43,131 +43,24 @@
 								</select>
 							</div>
 						</div>
-						<button type="submit" class="btn btn-primary" onclick="createSet()">Submit</button>
 					</form>
+					<button onclick="createSet()" class="btn btn-primary" id='buttonSubmit'>Submit</button>
 				</div>
 			</div>
 
 			<h1 class="text-center">Latihan Hari ini</h1>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="row">
-						<p hidden id="index-gerakan1">index</p>  <!-- Indexnya disimpan disini-->
-						<div class="col-md">
-							<p id="gerakan1">gerakan1</p>
-						</div>
-						<div class="col-md">
-							<p id="set1">10 reps</p>
-						</div>
-						<div class="col-md">
-							<a href="" id="linkTutorial1">tutorial</a>
-						</div>
-						<div class="col-md">
-							<a href=""  id="gantiBtn1">ganti</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="row">
-						<p hidden id="index-gerakan1">index</p>  <!-- Indexnya disimpan disini-->
-						<div class="col-md">
-							<p id="gerakan2">gerakan2</p>
-						</div>
-						<div class="col-md">
-							<p id="set2">10 reps</p>
-						</div>
-						<div class="col-md">
-							<a href="" id="linkTutorial2">tutorial</a>
-						</div>
-						<div class="col-md">
-							<a href=""  id="gantiBtn2">ganti</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="row">
-						<p hidden id="index-gerakan1">index</p>  <!-- Indexnya disimpan disini-->
-						<div class="col-md">
-							<p id="gerakan3">gerakan3</p>
-						</div>
-						<div class="col-md">
-							<p id="set3">10 reps</p>
-						</div>
-						<div class="col-md">
-							<a href="" id="linkTutorial3">tutorial</a>
-						</div>
-						<div class="col-md">
-							<a href=""  id="gantiBtn3">ganti</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-12">
-					<a href="">done</a>
-				</div>
+			<div class="row" id="setup">
+				
 			</div>
-
+			<div class="col-md-12">
+				<button onclick= doneSubmit()  id="gantiBtn${i}">done</a>
+			</div>
 			<h1 class="text-center">History Aerobik</h1>
 
-			<div class="row">
-				<div class="col-md-12">
-					<div class="row">
-						<div class="col-md">
-								<p>Nama</p>
-							</div>
-							<div class="col-md">
-								<p>Umur</p>
-							</div>
-						<div class="col-md">
-							<p>Hari Tanggal Waktu</p>
-						</div>
-						<div class="col-md">
-							<p>Intensitas : rendah</p>
-						</div>
-						<div class="col-md">
-							<a href="">Delete</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="row">
-						<div class="col-md">
-								<p>Nama</p>
-							</div>
-							<div class="col-md">
-								<p>Umur</p>
-							</div>
-						<div class="col-md">
-							<p>Hari Tanggal Waktu</p>
-						</div>
-						<div class="col-md">
-							<p>Intensitas : rendah</p>
-						</div>
-						<div class="col-md">
-							<a href="">Delete</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="row">
-						<div class="col-md">
-								<p>Nama</p>
-							</div>
-							<div class="col-md">
-								<p>Umur</p>
-							</div>
-						<div class="col-md">
-							<p>Hari Tanggal Waktu</p>
-						</div>
-						<div class="col-md">
-							<p>Intensitas : rendah</p>
-						</div>
-						<div class="col-md">
-								<a href="">Delete</a>
-						</div>
-					</div>
-				</div>
+			<div class="row" id="setupHistory">
+			
 			</div>
 		</div>
+		<script src="./js/index.js"></script>
 	</body>
 </html>
