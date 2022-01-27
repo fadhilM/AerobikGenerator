@@ -1,16 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-dark">
+    <div class="container">
+      <h1 class="text-center text-light">Daily Aerobic</h1>
+      <div class="row border bg-light rounded">
+        <div class="col-md-6">
+          <img
+            class="img-fluid m-3"
+            src="https://tempat.com/blog/wp-content/uploads/2020/01/25-Minute-Total-Body-Strength-Workout.jpg"
+          />
+        </div>
 
-<body>
-    <script src="index.js"></script>
-</body>
+        <div class="col-md-6">
+          <form class="m-5">
+            <div class="form-group row">
+              <label for="nama" class="col-sm-3 col-form-label text-right"
+                >Nama
+              </label>
+              <div class="col-sm-9">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nama"
+                  name="nama"
+                  placeholder="Nama"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="umur" class="col-sm-3 col-form-label text-right"
+                >Umur
+              </label>
+              <div class="col-sm-9">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="umur"
+                  name="umur"
+                  placeholder="umur"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="Intensitas" class="col-sm-3 col-form-label text-right"
+                >Intensitas
+              </label>
+              <div class="col-sm-9">
+                <select class="form-control">
+                  <option>Intensitas 1</option>
+                  <option>Intensitas 2</option>
+                  <option>Intensitas 3</option>
+                  <option>Intensitas 4</option>
+                </select>
+              </div>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
 
+      <h1 class="text-center text-light">Daily Training</h1>
+
+      <div class="row border bg-light rounded">
+        <div class="col-md-12">
+          <div class="row text-center m-3 p-2 border bg-light rounded">
+            <div class="col-md">
+              <p>gerakan1</p>
+            </div>
+            <div class="col-md">
+              <p>10 reps</p>
+            </div>
+            <div class="col-md">
+              <button type="submit" class="btn btn-primary">Tutorial</button>
+            </div>
+            <div class="col-md">
+              <button type="submit" class="btn btn-primary">Ganti</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row text-center m-3 p-2 border bg-light rounded">
+            <div class="col-md">
+              <p>gerakan1</p>
+            </div>
+            <div class="col-md">
+              <p>10 reps</p>
+            </div>
+            <div class="col-md">
+              <button type="submit" class="btn btn-primary">Tutorial</button>
+            </div>
+            <div class="col-md">
+              <button type="submit" class="btn btn-primary">Ganti</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row text-center m-3 p-2 border bg-light rounded">
+            <div class="col-md">
+              <p>gerakan1</p>
+            </div>
+            <div class="col-md">
+              <p>10 reps</p>
+            </div>
+            <div class="col-md">
+              <button type="submit" class="btn btn-primary">Tutorial</button>
+            </div>
+            <div class="col-md">
+              <button type="submit" class="btn btn-primary">Ganti</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 text-center mb-3">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+
+      <h1 class="text-center text-light">History Training</h1>
+
+      <div class="row border bg-light rounded">
+        <div class="col-md-12">
+          <div class="row text-center m-3 p-2 border bg-light rounded">
+            <div class="col-md">
+              <p>Steven - 26 - 21:00:00</p>
+            </div>
+            <div class="col-md">
+              <p>Intensistas : Rendah</p>
+            </div>
+
+            <div class="col-md">
+              <button type="submit" class="btn btn-primary">Ganti</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row text-center m-3 p-2 border bg-light rounded">
+            <div class="col-md">
+              <p>Steven - 26 - 21:00:00</p>
+            </div>
+            <div class="col-md">
+              <p>Intensistas : Rendah</p>
+            </div>
+
+            <div class="col-md">
+              <button type="submit" class="btn btn-primary">Ganti</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row text-center m-3 p-2 border bg-light rounded">
+            <div class="col-md">
+              <p>Steven - 26 - 21:00:00</p>
+            </div>
+            <div class="col-md">
+              <p>Intensistas : Rendah</p>
+            </div>
+
+            <div class="col-md">
+              <button type="submit" class="btn btn-primary">Ganti</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 text-center mb-3">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
