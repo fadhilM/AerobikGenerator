@@ -316,60 +316,68 @@ function hapusSatuGerakan(index) {
 }
 
 function createSet() {
+    let namaRegex = new RegExp('^[a-zA-Z]*$');
     umur = document.getElementById("umur").value
     nama = document.getElementById("nama").value
-    intensitas = document.getElementById("intensitas").value
-    setDiv.innerHTML = "";
-    const jumlahGerakan = 5
-    generatedGerakan = generateSet(jumlahGerakan);
-    let submitContainer = document.getElementById("submitContainer").innerHTML = `
-        <button onclick="doneSubmit()" id="submitBtn " class="btn btn-primary">Simpan</a>
-    `;
-
-    if (intensitas === "saitama") {
-        for (let i = 0; i < 4; i++) {
-
-            setDiv.innerHTML +=
-                `<div class="col-md-12" id= "listGerakan${i}">
-                <div class="row">
-                    <p hidden id="index-gerakan${i}">${i}</p> <!-- Indexnya disimpan disini-->
-                    <div class="col-md">
-                        <p id="gerakan${i}">${saitamaList[i].nama}</p>
-                    </div>
-                    <div class="col-md">
-                        <p id="set${i}">${saitamaList[i].level[intensitas]}</p>
-                    </div>
-                    <div class="col-md">
-                        <a href="${saitamaList[i].video} "target = "_blank" id="linkTutorial${i}">tutorial</a>
-                    </div>
-                </div>
-           </div>`
+    let alert = document.getElementById("alertNama");
+    if (nama.length !== 0 && umur.length !== 0) {
+        if (namaRegex.test(nama)) {
+            intensitas = document.getElementById("intensitas").value
+            setDiv.innerHTML = "";
+            const jumlahGerakan = 5
+            generatedGerakan = generateSet(jumlahGerakan);
+            document.getElementById("submitContainer").innerHTML = `
+                <button onclick="doneSubmit()" id="submitBtn " class="btn btn-primary">Simpan</a>`;
+            if (intensitas === "saitama") {
+                for (let i = 0; i < 4; i++) {
+                    setDiv.innerHTML +=
+                        `<div class="col-md-12" id= "listGerakan${i}">
+                        <div class="row">
+                            <p hidden id="index-gerakan${i}">${i}</p> <!-- Indexnya disimpan disini-->
+                            <div class="col-md">
+                                <p id="gerakan${i}">${saitamaList[i].nama}</p>
+                            </div>
+                            <div class="col-md">
+                                <p id="set${i}">${saitamaList[i].level[intensitas]}</p>
+                            </div>
+                            <div class="col-md">
+                                <a href="${saitamaList[i].video} "target = "_blank" id="linkTutorial${i}">tutorial</a>
+                            </div>
+                        </div>
+                   </div>`
+                }
+            } else {
+                for (let i = 0; i < jumlahGerakan; i++) {
+                    setDiv.innerHTML +=
+                        `<div class="col-md-12" id= "listGerakan${i}">
+                        <div class="row text-center m-3 p-2 border bg-light rounded">
+                            <div class="col-md">
+                                <p id="gerakan${i}">${generatedGerakan[i].nama}</p>
+                            </div>
+                            <div class="col-md">
+                                <p id="set${i}">${generatedGerakan[i].level[intensitas]}</p>
+                            </div>
+                            <div class="col-md">
+                                <a class="btn btn-primary" href="${generatedGerakan[i].video} "target = "_blank" id="linkTutorial${i}">Tutorial</a>
+                            </div>
+                            <div class="col-md">
+                                <button onclick="hapusSatuGerakan(${i})"  class="btn btn-primary" id="gantiBtn${i}">Ganti</button>
+                            </div>
+                        </div>
+                    </div>`
+                }
+            }
+        } else {
+            alert.removeAttribute("hidden");
+            alert.innerText = "Nama Tidak Boleh Memiliki Angka Maupun Simbol"
         }
     } else {
-        for (let i = 0; i < jumlahGerakan; i++) {
-
-            setDiv.innerHTML +=
-                `<div class="col-md-12" id= "listGerakan${i}">
-                <div class="row text-center m-3 p-2 border bg-light rounded">
-                    <div class="col-md">
-                        <p id="gerakan${i}">${generatedGerakan[i].nama}</p>
-                    </div>
-                    <div class="col-md">
-                        <p id="set${i}">${generatedGerakan[i].level[intensitas]}</p>
-                    </div>
-                    <div class="col-md">
-                        <a class="btn btn-primary" href="${generatedGerakan[i].video} "target = "_blank" id="linkTutorial${i}">Tutorial</a>
-                    </div>
-                    <div class="col-md">
-                        <button onclick="hapusSatuGerakan(${i})"  class="btn btn-primary" id="gantiBtn${i}">Ganti</button>
-                    </div>
-                </div>
-            </div>`
-        }
-
+        alert.removeAttribute("hidden");
+        alert.innerText = "Nama/Umur Tidak Boleh Kosong"
     }
 
 }
+
 
 
 

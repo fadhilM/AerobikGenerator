@@ -13,44 +13,46 @@
 <body class="bg-dark">
     <div class="container">
         <h1 class="text-center text-light">Daily Aerobic</h1>
-        <div class="row border bg-light rounded">
+        <div class="row border bg-light rounded form-wrapper">
             <div class="col-md-6">
                 <img class="img-fluid m-3" src="https://tempat.com/blog/wp-content/uploads/2020/01/25-Minute-Total-Body-Strength-Workout.jpg" />
             </div>
 
             <div class="col-md-6">
-                <form class="m-5">
+                <section class="m-5">
+                    <div class="text-center pb-4">
+                        <h2 class="">Form</h2>
+                    </div>
+                    <div hidden class="alert alert-danger" role="alert" id="alertNama">
+                        Nama Tidak Boleh Memiliki Angka Maupun Simbol
+                    </div>
                     <div class="form-group row">
-                        <label for="nama" class="col-sm-3 col-form-label text-right">Nama
-              </label>
+                        <label for="nama" class="col-sm-3 col-form-label text-right">Nama</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama" />
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="umur" class="col-sm-3 col-form-label text-right">Umur
-              </label>
+                        <label for="umur" class="col-sm-3 col-form-label text-right">Umur</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="umur" name="umur" placeholder="umur" />
+                            <input type="number" class="form-control" id="umur" name="umur" placeholder="umur" />
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="Intensitas" class="col-sm-3 col-form-label text-right">Intensitas
-              </label>
+                        <label for="Intensitas" class="col-sm-3 col-form-label text-right">Intensitas</label>
                         <div class="col-sm-9">
                             <select class="form-control" name="intensitas" id="intensitas">
                                 <option value="rendah">Rendah</option>
                                 <option value="sedang">Sedang</option>
                                 <option value="tinggi">Tinggi</option>
                                 <option value="saitama">Saitama</option>
-                </select>
+                            </select>
                         </div>
                     </div>
-
-                </form>
-                <div class="text-center">
-                    <button onclick="createSet()" class="btn btn-primary" id='buttonSubmit'>Submit</button>
-                </div>
+                    <div class="text-center">
+                        <button onclick="createSet()" class="btn btn-primary" id='buttonSubmit'>Submit</button>
+                    </div>
+                </section>
             </div>
         </div>
 
