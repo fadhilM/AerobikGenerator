@@ -318,7 +318,7 @@ function hapusSatuGerakan(index) {
 function createSet() {
     let namaRegex = new RegExp('^[a-zA-Z]*$');
     umur = document.getElementById("umur").value
-    nama = trim(document.getElementById("nama").value)
+    nama = document.getElementById("nama").value.trim();
     let alert = document.getElementById("alertNama");
     if (nama.length !== 0 && umur.length !== 0) {
         if (namaRegex.test(nama)) {
