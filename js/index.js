@@ -270,7 +270,8 @@ function generateSatu(jumlahGerakan) {
             rendah: result[0].level.rendah,
             sedang: result[0].level.sedang,
             tinggi: result[0].level.tinggi
-        }
+        },
+        video: result[0].video
     }
 
     return obj
@@ -304,6 +305,7 @@ function hapusSatuGerakan(index) {
                 while (flag === false)
 
                 generatedGerakan.splice(index, 1, pengganti)
+                console.log(generatedGerakan[index]);
                 setDiv.innerHTML +=
                     `<div class="col-md-12" id= "listGerakan${index}">
        <div class="row text-center m-3 p-2 border bg-light rounded">
@@ -314,7 +316,7 @@ function hapusSatuGerakan(index) {
                <p id="set${index}">${generatedGerakan[index].level[intensitas]}</p>
            </div>
            <div class="btn-group col-md btn-gerakan" role="group" aria-label="Basic example">
-                    <a class="btn btn-info" href="${generatedGerakan[index].video} " target="_blank" id="linkTutorial${index}"><i class="fas fa-play"></i></a>
+                    <a class="btn btn-info" href="${generatedGerakan[index].video}" target="_blank" id="linkTutorial${index}"><i class="fas fa-play"></i></a>
                     <button onclick="hapusSatuGerakan(${index})" class="btn btn-warning" id="gantiBtn${index}"><i class="fas fa-sync-alt"></i></button>
              </div>
        </div>
