@@ -7,61 +7,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body class="bg-dark">
     <div class="container">
-        <h1 class="text-center">Name Website</h1>
-        <div class="row">
+        <h1 class="text-center text-light">Daily Aerobic</h1>
+        <div class="row border bg-light rounded">
             <div class="col-md-6">
-                <img class="w-100" src="https://tempat.com/blog/wp-content/uploads/2020/01/25-Minute-Total-Body-Strength-Workout.jpg" />
+                <img class="img-fluid m-3" src="https://tempat.com/blog/wp-content/uploads/2020/01/25-Minute-Total-Body-Strength-Workout.jpg" />
             </div>
 
             <div class="col-md-6">
-                <!-- start:Form -->
-                <form>
+                <form class="m-5">
                     <div class="form-group row">
-                        <label for="nama" class="col-sm col-form-label">Nama :</label>
-                        <div class="col-sm">
+                        <label for="nama" class="col-sm-3 col-form-label text-right">Nama
+              </label>
+                        <div class="col-sm-9">
                             <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama" />
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="umur" class="col-sm col-form-label">Umur :</label>
-                        <div class="col-sm">
+                        <label for="umur" class="col-sm-3 col-form-label text-right">Umur
+              </label>
+                        <div class="col-sm-9">
                             <input type="text" class="form-control" id="umur" name="umur" placeholder="umur" />
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="Intensitas" class="col-sm col-form-label" >Intensitas :</label
-							>
-							<div class="col-sm">
-								<select class="form-control" name="intensitas" id="intensitas">
-									<option value="rendah">Rendah</option>
-									<option value="sedang">Sedang</option>
-									<option value="tinggi">Tinggi</option>
-									<option value="saitama">Saitama</option>
-								</select>
-							</div>
-						</div>
-					</form>
-					<button onclick="createSet()" class="btn btn-primary" id='buttonSubmit'>Submit</button>
-				</div>
-			</div>
+                        <label for="Intensitas" class="col-sm-3 col-form-label text-right">Intensitas
+              </label>
+                        <div class="col-sm-9">
+                            <select class="form-control" name="intensitas" id="intensitas">
+                                <option value="rendah">Rendah</option>
+                                <option value="sedang">Sedang</option>
+                                <option value="tinggi">Tinggi</option>
+                                <option value="saitama">Saitama</option>
+                </select>
+                        </div>
+                    </div>
 
-			<h1 class="text-center">Latihan Hari ini</h1>
-			<div class="row" id="setup">
-				
-			</div>
-			<div class="col-md-12">
-				<button onclick= doneSubmit()  id="gantiBtn${i}">done</a>
-			</div>
-			<h1 class="text-center">History Aerobik</h1>
+                </form>
+                <div class="text-center">
+                    <button onclick="createSet()" class="btn btn-primary" id='buttonSubmit'>Submit</button>
+                </div>
+            </div>
+        </div>
 
-			<div class="row" id="setupHistory">
-			
-			</div>
-		</div>
-		<script src="./js/index.js"></script>
-	</body>
+        <h1 class="text-center text-light">Daily Training</h1>
+
+        <div class="row border bg-light rounded">
+            <div id="setup" class="col-md-12">
+                <div class="col-md-12">
+                    <div class="row text-center m-3 p-2 border bg-light rounded">
+                        <div class="col-md">
+                            <h2 class="">Belum di Generate</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 text-center mb-3" id="submitContainer">
+
+            </div>
+        </div>
+
+        <h1 class="text-center text-light">History Training</h1>
+
+        <div class="row border bg-light rounded">
+            <div id="setupHistory" class="col-md-12">
+                <div class="col-md-12">
+                    <div class="row text-center m-3 p-2 border bg-light rounded">
+                        <div class="col-md">
+                            <p>Steven - 26 - 21:00:00</p>
+                        </div>
+                        <div class="col-md">
+                            <p>Intensistas : Rendah</p>
+                        </div>
+
+                        <div class="col-md">
+                            <button type="submit" class="btn btn-primary">Ganti</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row text-center m-3 p-2 border bg-light rounded">
+                        <div class="col-md">
+                            <p>Steven - 26 - 21:00:00</p>
+                        </div>
+                        <div class="col-md">
+                            <p>Intensistas : Rendah</p>
+                        </div>
+
+                        <div class="col-md">
+                            <button type="submit" class="btn btn-primary">Ganti</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
 </html>

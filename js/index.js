@@ -6,198 +6,197 @@ let nama
 let counter = 0
 
 let listGerakan = [{
-    nama: "push up",
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
+        nama: "push up",
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=_l3ySVKYVJ8'
     },
-    video: 'https://www.youtube.com/watch?v=_l3ySVKYVJ8'
-},
-{
-    nama: "Squat Jump",
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
+    {
+        nama: "Squat Jump",
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=72BSZupb-1I'
     },
-    video: 'https://www.youtube.com/watch?v=72BSZupb-1I'
-},
-{
-    nama: "Jumping Jack",
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
+    {
+        nama: "Jumping Jack",
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=1b98WrRrmUs'
     },
-    video: 'https://www.youtube.com/watch?v=1b98WrRrmUs'
-},
-{
-    nama: "Burpess",
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
+    {
+        nama: "Burpess",
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=auBLPXO8Fww'
     },
-    video: 'https://www.youtube.com/watch?v=auBLPXO8Fww'
-},
-{
-    nama: "Squat Thrust",
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
+    {
+        nama: "Squat Thrust",
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=F4511oTkNls'
+    },
+    {
+        nama: 'High Knees',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=_a29JwDaVJw'
+    },
+    {
+        nama: 'Mountain Climber',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=zT-9L3CEcmk'
+    },
+    {
+        nama: 'Jumping Split Squad',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=adEmdacH6UM'
+    },
+    {
+        nama: 'Man Maker',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=2-6EPLtSLwU'
+    },
+    {
+        nama: 'Normal Plank',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=B296mZDhrP4'
+    },
+    {
+        nama: 'Side Plank',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=IkMmABQ9SkM'
+    },
+    {
+        nama: 'Jumping Split Lunge',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=x3avm4QPINk'
+    },
+    {
+        nama: 'Russian Twist',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=DJQGX2J4IVw'
+    },
+    {
+        nama: 'Bulgarian Split Squad',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=7Aqeb8UHl4k'
+    },
+    {
+        nama: 'Standart Push Up',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=_l3ySVKYVJ8'
+    },
+    {
+        nama: 'Clapping or Hand Release Push Up',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=kfnMuP5JgIw'
+    },
+    {
+        nama: 'Crunches',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=xBPQ1Es6qgU'
+    },
+    {
+        nama: 'Bodyweight Push Up To Renegade Row',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=clVj2dQ_GoY'
+    },
+    {
+        nama: 'Floor IYT Raises',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=Yv6sUKOwOY8'
+    },
+    {
+        nama: 'Calf Raises',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            sedang: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=-M4-G8p8fmc'
+    },
+    {
+        nama: 'Rope Jump',
+        level: {
+            rendah: `do 15 reps with 3 set`,
+            medium: `do 20 reps with 3 set`,
+            tinggi: `do 25 reps with 3 set`
+        },
+        video: 'https://www.youtube.com/watch?v=EkGoiC1ilW0'
     }
-    , video: 'https://www.youtube.com/watch?v=F4511oTkNls'
-},
-{
-    nama: 'High Knees',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=_a29JwDaVJw'
-},
-{
-    nama: 'Mountain Climber',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=zT-9L3CEcmk'
-},
-{
-    nama: 'Jumping Split Squad',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=adEmdacH6UM'
-},
-{
-    nama: 'Man Maker',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=2-6EPLtSLwU'
-},
-{
-    nama: 'Normal Plank',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=B296mZDhrP4'
-},
-{
-    nama: 'Side Plank',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=IkMmABQ9SkM'
-},
-{
-    nama: 'Jumping Split Lunge',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=x3avm4QPINk'
-},
-{
-    nama: 'Russian Twist',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=DJQGX2J4IVw'
-},
-{
-    nama: 'Bulgarian Split Squad',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=7Aqeb8UHl4k'
-},
-{
-    nama: 'Standart Push Up',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=_l3ySVKYVJ8'
-},
-{
-    nama: 'Clapping or Hand Release Push Up',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=kfnMuP5JgIw'
-},
-{
-    nama: 'Crunches',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=xBPQ1Es6qgU'
-},
-{
-    nama: 'Bodyweight Push Up To Renegade Row',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=clVj2dQ_GoY'
-},
-{
-    nama: 'Floor IYT Raises',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=Yv6sUKOwOY8'
-},
-{
-    nama: 'Calf Raises',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        sedang: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=-M4-G8p8fmc'
-},
-{
-    nama: 'Rope Jump',
-    level: {
-        rendah: `do 15 reps with 3 set`,
-        medium: `do 20 reps with 3 set`,
-        tinggi: `do 25 reps with 3 set`
-    },
-    video: 'https://www.youtube.com/watch?v=EkGoiC1ilW0'
-}
 ]
 
-let saitamaList = [
-    {
+let saitamaList = [{
         nama: 'Sit Up',
         level: { saitama: '100 Sit Up EVERY SINGEL DAY!!!' },
         video: ''
@@ -216,7 +215,8 @@ let saitamaList = [
         nama: 'Running',
         level: { saitama: '10 KM EVERY SINGEL DAY!!!' },
         video: ''
-    }]
+    }
+]
 
 
 function generateSet(jumlahGerakan) {
@@ -277,11 +277,6 @@ function generateSatu(jumlahGerakan) {
 
 }
 
-// console.log(generateSatuSet(1))
-
-
-generatedGerakan = generateSet(5) //function coba
-
 function hapusSatuGerakan(index) {
 
     let pengganti = generateSatu(1)
@@ -303,26 +298,22 @@ function hapusSatuGerakan(index) {
     generatedGerakan.splice(index, 1, pengganti)
     setDiv.innerHTML +=
         `<div class="col-md-12" id= "listGerakan${index}">
-            <div class="row">
-                <p hidden id="index-gerakan${index}">${index}</p> <!-- Indexnya disimpan disini-->
-                <div class="col-md">
-                    <p id="gerakan${index}">${generatedGerakan[index].nama}</p>
-                </div>
-                <div class="col-md">
-                    <p id="set${index}">${generatedGerakan[index].level[intensitas]}</p>
-                </div>
-                <div class="col-md">
-                    <a href="${generatedGerakan[index].video} "target = "_blank" id="linkTutorial${index}">tutorial</a>
-                </div>
-                <div class="col-md">
-                    <button onclick= hapusSatuGerakan(${index})  id="gantiBtn${index}">ganti</button>
-                </div>
-            </div>
-       </div>`
+       <div class="row text-center m-3 p-2 border bg-light rounded">
+           <div class="col-md">
+               <p id="gerakan${index}">${generatedGerakan[index].nama}</p>
+           </div>
+           <div class="col-md">
+               <p id="set${index}">${generatedGerakan[index].level[intensitas]}</p>
+           </div>
+           <div class="col-md">
+               <a class="btn btn-primary" href="${generatedGerakan[index].video} "target = "_blank" id="linkTutorial${index}">Tutorial</a>
+           </div>
+           <div class="col-md">
+               <button onclick= hapusSatuGerakan(${index})  class="btn btn-primary" id="gantiBtn${index}">Ganti</button>
+           </div>
+       </div>
+   </div>`
 }
-
-
-
 
 function createSet() {
     umur = document.getElementById("umur").value
@@ -331,10 +322,13 @@ function createSet() {
     setDiv.innerHTML = "";
     const jumlahGerakan = 5
     generatedGerakan = generateSet(jumlahGerakan);
+    let submitContainer = document.getElementById("submitContainer").innerHTML = `
+        <button onclick="doneSubmit()" id="submitBtn " class="btn btn-primary">Simpan</a>
+    `;
 
     if (intensitas === "saitama") {
         for (let i = 0; i < 4; i++) {
-            
+
             setDiv.innerHTML +=
                 `<div class="col-md-12" id= "listGerakan${i}">
                 <div class="row">
@@ -353,11 +347,10 @@ function createSet() {
         }
     } else {
         for (let i = 0; i < jumlahGerakan; i++) {
-            
+
             setDiv.innerHTML +=
                 `<div class="col-md-12" id= "listGerakan${i}">
-                <div class="row">
-                    <p hidden id="index-gerakan${i}">${i}</p> <!-- Indexnya disimpan disini-->
+                <div class="row text-center m-3 p-2 border bg-light rounded">
                     <div class="col-md">
                         <p id="gerakan${i}">${generatedGerakan[i].nama}</p>
                     </div>
@@ -365,65 +358,44 @@ function createSet() {
                         <p id="set${i}">${generatedGerakan[i].level[intensitas]}</p>
                     </div>
                     <div class="col-md">
-                        <a href="${generatedGerakan[i].video} "target = "_blank" id="linkTutorial${i}">tutorial</a>
+                        <a class="btn btn-primary" href="${generatedGerakan[i].video} "target = "_blank" id="linkTutorial${i}">Tutorial</a>
                     </div>
                     <div class="col-md">
-                        <button onclick= hapusSatuGerakan(${i})  id="gantiBtn${i}">ganti</button>
+                        <button onclick="hapusSatuGerakan(${i})"  class="btn btn-primary" id="gantiBtn${i}">Ganti</button>
                     </div>
                 </div>
-           </div>`
+            </div>`
         }
+
     }
 
 }
 
+
+
 function doneSubmit() {
-    counter++
     let setDivHistory = document.getElementById("setupHistory")
+    var today = new Date();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
     setDivHistory.innerHTML +=
-        `<div class="col-md-12" id="history${counter}">
-    <div class="row">
-        <div class="col-md">
-                <p>${nama}</p>
+        `<div class="col-md-12"  id="history${counter}">
+        <div class="row text-center m-3 p-2 border bg-light rounded">
+            <div class="col-md">
+                <p>${nama} - ${umur} - ${time}</p>
             </div>
             <div class="col-md">
-                <p>${umur}</p>
+                <p>Intensistas : ${intensitas}</p>
             </div>
-        <div class="col-md">
-            <p>${Date.now()}</p>
-        </div>
-        <div class="col-md">
-            <p>Intensitas : ${intensitas}</p>
-        </div>
-        <div class="col-md">
-        <button onclick="deleteHistory(${counter})")  id="doneButton${counter}">Delete</button>
-        </div>
-    </div>
-</div>`
 
+            <div class="col-md">
+                <button  onclick="deleteHistory(${counter})" class="btn btn-primary">Delete </button>
+            </div>
+        </div>
+    </div>`
+    counter++
 }
 
 function deleteHistory(index) {
     let lineHapus = document.getElementById(`history${index}`)
     lineHapus.remove()
 }
-
-// document.getElementById("buttonSubmit").addEventListener("click", function(event){
-//     event.preventDefault()
-//     createSet()
-//   });
-
-
-
-/**
- * skipping
-2. Jumping Jacks
-3. Stair Training (agak repot)
-4. Butt Kicks
-5. Mountain Climber 
-6. Bear Crawls (repot)
-7. Burpees
-8. Squat Jacks
-9. Inchworm
-10. High Knees
- */
