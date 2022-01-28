@@ -6,217 +6,217 @@ let nama
 let counter = 0
 
 let listGerakan = [{
-        nama: "push up",
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=_l3ySVKYVJ8'
+    nama: "push up",
+    level: {
+        rendah: `do 5 reps with 3 set`,
+        sedang: `do 10 reps with 3 set`,
+        tinggi: `do 15 reps with 3 set`
     },
-    {
-        nama: "Squat Jump",
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=72BSZupb-1I'
+    video: 'https://www.youtube.com/watch?v=_l3ySVKYVJ8'
+},
+{
+    nama: "Squat Jump",
+    level: {
+        rendah: `do 7 reps with 3 set`,
+        sedang: `do 12 reps with 3 set`,
+        tinggi: `do 20 reps with 3 set`
     },
-    {
-        nama: "Jumping Jack",
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=1b98WrRrmUs'
+    video: 'https://www.youtube.com/watch?v=72BSZupb-1I'
+},
+{
+    nama: "Jumping Jack",
+    level: {
+        rendah: `do 10 reps with 3 set`,
+        sedang: `do 20 reps with 3 set`,
+        tinggi: `do 30 reps with 3 set`
     },
-    {
-        nama: "Burpess",
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=auBLPXO8Fww'
+    video: 'https://www.youtube.com/watch?v=1b98WrRrmUs'
+},
+{
+    nama: "Burpess",
+    level: {
+        rendah: `do 5 reps with 3 set`,
+        sedang: `do 10 reps with 3 set`,
+        tinggi: `do 20 reps with 3 set`
     },
-    {
-        nama: "Squat Thrust",
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=F4511oTkNls'
-    },
-    {
-        nama: 'High Knees',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=_a29JwDaVJw'
-    },
-    {
-        nama: 'Mountain Climber',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=zT-9L3CEcmk'
-    },
-    {
-        nama: 'Jumping Split Squad',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=adEmdacH6UM'
-    },
-    {
-        nama: 'Man Maker',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=2-6EPLtSLwU'
-    },
-    {
-        nama: 'Normal Plank',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=B296mZDhrP4'
-    },
-    {
-        nama: 'Side Plank',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=IkMmABQ9SkM'
-    },
-    {
-        nama: 'Jumping Split Lunge',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=x3avm4QPINk'
-    },
-    {
-        nama: 'Russian Twist',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=DJQGX2J4IVw'
-    },
-    {
-        nama: 'Bulgarian Split Squad',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=7Aqeb8UHl4k'
-    },
-    {
-        nama: 'Standart Push Up',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=_l3ySVKYVJ8'
-    },
-    {
-        nama: 'Clapping or Hand Release Push Up',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=kfnMuP5JgIw'
-    },
-    {
-        nama: 'Crunches',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=xBPQ1Es6qgU'
-    },
-    {
-        nama: 'Bodyweight Push Up To Renegade Row',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=clVj2dQ_GoY'
-    },
-    {
-        nama: 'Floor IYT Raises',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=Yv6sUKOwOY8'
-    },
-    {
-        nama: 'Calf Raises',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            sedang: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=-M4-G8p8fmc'
-    },
-    {
-        nama: 'Rope Jump',
-        level: {
-            rendah: `do 15 reps with 3 set`,
-            medium: `do 20 reps with 3 set`,
-            tinggi: `do 25 reps with 3 set`
-        },
-        video: 'https://www.youtube.com/watch?v=EkGoiC1ilW0'
+    video: 'https://www.youtube.com/watch?v=auBLPXO8Fww'
+},
+{
+    nama: "Squat Thrust",
+    level: {
+        rendah: `do 5 reps with 3 set`,
+        sedang: `do 10 reps with 3 set`,
+        tinggi: `do 20 reps with 3 set`
     }
+    , video: 'https://www.youtube.com/watch?v=F4511oTkNls'
+},
+{
+    nama: 'High Knees',
+    level: {
+        rendah: `do 10 reps with 3 set`,
+        sedang: `do 20 reps with 3 set`,
+        tinggi: `do 30 reps with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=_a29JwDaVJw'
+},
+{
+    nama: 'Mountain Climber',
+    level: {
+        rendah: `do 15 reps with 3 set`,
+        sedang: `do 20 reps with 3 set`,
+        tinggi: `do 25 reps with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=zT-9L3CEcmk'
+},
+{
+    nama: 'Jumping Split Squad',
+    level: {
+        rendah: `do 5 reps with 3 set`,
+        sedang: `do 10 reps with 3 set`,
+        tinggi: `do 15 reps with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=adEmdacH6UM'
+},
+{
+    nama: 'Man Maker',
+    level: {
+        rendah: `do 3 reps with 3 set`,
+        sedang: `do 5 reps with 3 set`,
+        tinggi: `do 7 reps with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=2-6EPLtSLwU'
+},
+{
+    nama: 'Normal Plank',
+    level: {
+        rendah: `do 10 seconds with 3 set`,
+        sedang: `do 30 seconds with 3 set`,
+        tinggi: `do 1 minute with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=B296mZDhrP4'
+},
+{
+    nama: 'Side Plank',
+    level: {
+        rendah: `do 10 seconds with 3 set`,
+        sedang: `do 30 seconds with 3 set`,
+        tinggi: `do 1 minute with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=IkMmABQ9SkM'
+},
+{
+    nama: 'Jumping Split Lunge',
+    level: {
+        rendah: `do 5 reps with 3 set`,
+        sedang: `do 10 reps with 3 set`,
+        tinggi: `do 20 reps with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=x3avm4QPINk'
+},
+{
+    nama: 'Russian Twist',
+    level: {
+        rendah: `do 15 reps with 3 set`,
+        sedang: `do 20 reps with 3 set`,
+        tinggi: `do 25 reps with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=DJQGX2J4IVw'
+},
+{
+    nama: 'Bulgarian Split Squad',
+    level: {
+        rendah: `do 17 reps each left and right leg with 2 set`,
+        sedang: `do 20 reps each left and right leg with 3 set`,
+        tinggi: `do 25 reps each left and right leg with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=7Aqeb8UHl4k'
+},
+{
+    nama: 'Diamond Push Up',
+    level: {
+        rendah: `do 5 reps with 2 set`,
+        sedang: `do 7 reps with 3 set`,
+        tinggi: `do 10 reps with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=J0DnG1_S92I'
+},
+{
+    nama: 'Clapping or Hand Release Push Up',
+    level: {
+        rendah: `do 10 reps with 2 set`,
+        sedang: `do 12 reps with 3 set`,
+        tinggi: `do 15 reps with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=kfnMuP5JgIw'
+},
+{
+    nama: 'Crunches',
+    level: {
+        rendah: `do 20 reps with 3 set`,
+        sedang: `do 23 reps with 3 set`,
+        tinggi: `do 27 reps with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=xBPQ1Es6qgU'
+},
+{
+    nama: 'Bodyweight Push Up To Renegade Row',
+    level: {
+        rendah: `do 7 reps each left and right arm with 2 set`,
+        sedang: `do 7 reps each left and right arm with 3 set`,
+        tinggi: `do 10 reps each left and right arm with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=clVj2dQ_GoY'
+},
+{
+    nama: 'Floor IYWT Raises',
+    level: {
+        rendah: `do each I, Y, W, T  5 reps with 3`,
+        sedang: `do each I, Y, W, T  10 reps with 3`,
+        tinggi: `do each I, Y, W, T  15 reps with 3`
+    },
+    video: 'https://www.youtube.com/watch?v=Yv6sUKOwOY8'
+},
+{
+    nama: 'Calf Raises',
+    level: {
+        rendah: `do 30 reps with 3 set`,
+        sedang: `do 40 reps with 3 set`,
+        tinggi: `do 50 reps with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=-M4-G8p8fmc'
+},
+{
+    nama: 'Rope Jump',
+    level: {
+        rendah: `do 20 Seconds single under with 2 set`,
+        medium: `do 30 Seconds single under with 3 set`,
+        tinggi: `do 45 Seconds single under with 3 set`
+    },
+    video: 'https://www.youtube.com/watch?v=EkGoiC1ilW0'
+}
 ]
 
-let saitamaList = [{
+let saitamaList = [
+    {
         nama: 'Sit Up',
-        level: { saitama: '100 Sit Up EVERY SINGEL DAY!!!' },
-        video: ''
+        level: { saitama: '100 Sit Up EVERY SINGLE DAY!!! TILL YOU GO BALD!!!' },
+        video: 'https://www.youtube.com/watch?v=C7rBDKrWprU'
     },
     {
         nama: 'Push Up',
-        level: { saitama: '100 Push Up EVERY SINGEL DAY!!!' },
-        video: ''
+        level: { saitama: '100 Push Up EVERY SINGLE DAY!!! TILL YOU GO BALD!!!' },
+        video: 'https://www.youtube.com/watch?v=C7rBDKrWprU'
     },
     {
         nama: 'Squad',
-        level: { saitama: '100 Squad EVERY SINGEL DAY!!!' },
-        video: ''
+        level: { saitama: '100 Squad EVERY SINGLE DAY!!! TILL YOU GO BALD!!!' },
+        video: 'https://www.youtube.com/watch?v=C7rBDKrWprU'
     },
     {
         nama: 'Running',
-        level: { saitama: '10 KM EVERY SINGEL DAY!!!' },
-        video: ''
-    }
-]
+        level: { saitama: '10 KM EVERY SINGLE DAY!!! TILL YOU GO BALD!!!' },
+        video: 'https://www.youtube.com/watch?v=C7rBDKrWprU'
+    }]
 
 
 function generateSet(jumlahGerakan) {
