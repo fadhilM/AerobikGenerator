@@ -346,6 +346,12 @@ function createSet() {
                         </div>
                    </div>`
                 }
+                setDiv.innerHTML +=
+                    `<div class="col-md-12" id= "saitamaSong">
+                        <audio controls autoplay>
+                        <source src="resource/audio/saitamaMode.mp3" type="audio/mpeg">
+                  </audio>
+                    </div>`
             } else {
                 for (let i = 0; i < jumlahGerakan; i++) {
                     setDiv.innerHTML +=
@@ -379,7 +385,10 @@ function createSet() {
 }
 
 
-
+// function audioPlay() {
+//     let saitamaSong = new Audio ("saitama mode.mp3");
+//     saitamaSong.play()
+// }
 
 function doneSubmit() {
     let setDivHistory = document.getElementById("setupHistory")
